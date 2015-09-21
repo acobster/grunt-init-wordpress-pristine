@@ -1,6 +1,6 @@
-# WordPress starter
+# Pristine WordPress
 
-A starter repo for use with Grunt-init. Contains everything you need to automatically bootstrap the codebase for a full WordPress site **without keeping your dependencies in version control**.
+An opinionated starter repo for use with Grunt-init. Contains everything you need to automatically bootstrap the codebase for a full WordPress site **without keeping your dependencies in version control**.
 
 ## Say what?!
 
@@ -12,20 +12,18 @@ Y'know. Dependencies. The things you trust **other** people to maintain and ther
 
 ## How?
 
-Pull in the core/plugins/themes at deploy time and symlink everything together. It's not rocket science.
+Pull in the core/plugins/themes at deploy time and put everything...in its right place. It's not rocket science.
 
 ## OK, show me!
 
-Assuming you've set up your MySQL database already, run:
-
 ```
-$ git clone git@bitbucket.org:acobster/wordpress-starter.git ~/.grunt-init/wordpress-starter
-$ grunt-init wordpress-starter
+$ git clone git@github.com:acobster/grunt-init-wordpress-pristine.git ~/.grunt-init/wordpress-pristine
+$ grunt-init wordpress-pristine
 ```
 
 After answering some basic questions about your new WordPress project, edit your `composer.json` file and configure your desired plugins as dependencies (you should have been prompted for a theme already). **This architecture assumes you are following the WPackagist convention by declaring themes and plugins as composer packages.** More info about this convention [here](https://roots.io/using-composer-with-wordpress/).
 
-Once you've configured your theme and plugins, run:
+Once you've configured your theme and plugins (and also set up your MySQL database), run:
 
 ```
 $ npm install
@@ -44,4 +42,4 @@ When setting up the DNS for your WordPress site, set the document root to `publi
 
 ## Nice to haves
 
-* Reversible Migrations
+* Reversible Migrations?!
