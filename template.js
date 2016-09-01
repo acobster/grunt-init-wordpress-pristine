@@ -79,7 +79,7 @@ exports.template = function(grunt, init, done) {
       "repositories": [
         {
           "type": "composer",
-          "url": "http://wpackagist.org"
+          "url": "https://wpackagist.org"
         }
       ],
       "require": {
