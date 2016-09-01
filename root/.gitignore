@@ -1,0 +1,6 @@
+/public/wp
+/vendor
+/node_modules
+/bower_components
+composer.lock
+.env

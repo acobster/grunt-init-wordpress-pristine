@@ -1,0 +1,23 @@
+{
+  "name": "strongsupportdoula.com",
+  "version": "0.1.0",
+  "description": "WordPress site for strongsupportdoula.com",
+  "main": "index.php",
+  "author": "Coby Tamayo",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-composer": "^0.4.4",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-file-creator": "^0.1.3",
+    "grunt-exec": "^0.4.6",
+    "grunt-prompt": "^1.3.0",
+    "request": "^2.62.0",
+    "grunt-replace": "^0.11.0",
+    "grunt-contrib-copy": "^0.8.1"
+  },
+  "devDependencies": 
+}

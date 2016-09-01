@@ -1,0 +1,24 @@
+{
+	"environments": {
+		"development": {
+		},
+    "staging": {
+      "DB_NAME": "",
+      "DB_USER": "",
+      "DB_PASSWORD": "",
+      "DB_HOST": "localhost"
+    },
+    "production": {
+      "DB_NAME": "",
+      "DB_USER": "",
+      "DB_PASSWORD": "",
+      "DB_HOST": "localhost"
+    }
+	},
+  "active_theme": {
+    "name": "lovecraft"
+  },
+  "active_plugins": [
+    { "name": "advanced-custom-fields" }
+  ]
+}
