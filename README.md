@@ -36,10 +36,3 @@ Answer the prompts and you'll have a working WordPress website running with a do
 
 When setting up the DNS for your WordPress site, set the document root to `public/` directory of this repo. Configuration is driven by a `config.json` file that lives outside of the web root, keeping your sensitive data that much safer. `public/wp/wp-config.php` reads environment configurations from this JSON file instead of declaring constants like `DB_PASSWORD` directly.
 
-## TODO
-
-* Write `.htaccess`
-
-## Nice to haves
-
-* Reversible Migrations?!
